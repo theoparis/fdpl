@@ -12,7 +12,7 @@ export const appSchema = z.object({
                 from: z.number(),
                 to: z.number().optional(),
             }),
-            host: z.string(),
+            host: z.union([z.string(), z.literal(false)]),
         })
     ),
 });
