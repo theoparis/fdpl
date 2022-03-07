@@ -14,7 +14,7 @@ specifiers:
   eslint: 7.30.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-prettier: 3.4.0
-  husky: 7.0.1
+  husky: 7.0.4
   mocha: 9.0.2
   nyc: 15.1.0
   prettier: 2.3.2
@@ -43,7 +43,7 @@ devDependencies:
   eslint: 7.30.0
   eslint-config-prettier: 8.3.0_eslint@7.30.0
   eslint-plugin-prettier: 3.4.0_0470f3bcd018a045da11d0bbb868d6c6
-  husky: 7.0.1
+  husky: 7.0.4
   mocha: 9.0.2
   nyc: 15.1.0
   prettier: 2.3.2
@@ -255,6 +255,7 @@ packages:
   /@commitlint/load/12.1.1:
     resolution: {integrity: sha512-qOQtgNdJRULUQWP9jkpTwhj7aEtnqUtqeUpbQ9rjS+GIUST65HZbteNUX4S0mAEGPWqy2aK5xGd73cUfFSvuuw==}
     engines: {node: '>=v10'}
+    requiresBuild: true
     dependencies:
       '@commitlint/execute-rule': 12.1.1
       '@commitlint/resolve-extends': 12.1.1
@@ -1672,6 +1673,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1936,8 +1938,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: false
 
-  /husky/7.0.1:
-    resolution: {integrity: sha512-gceRaITVZ+cJH9sNHqx5tFwbzlLCVxtVZcusME8JYQ8Edy5mpGDOqD8QBCdMhpyo9a+JXddnujQ4rpY2Ff9SJA==}
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
     engines: {node: '>=12'}
     hasBin: true
     dev: true
@@ -3379,6 +3381,7 @@ packages:
 
   /tsconfig-paths/3.9.0:
     resolution: {integrity: sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==}
+    requiresBuild: true
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
