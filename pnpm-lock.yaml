@@ -3,9 +3,9 @@ lockfileVersion: 5.3
 specifiers:
   '@kubernetes/client-node': ^0.15.0
   '@types/chai': 4.2.21
-  '@types/mocha': 8.2.3
-  '@types/node': 14.17.6
-  '@types/yargs': 16.0.4
+  '@types/mocha': 9.1.0
+  '@types/node': 16.11.26
+  '@types/yargs': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.28.2
   '@typescript-eslint/parser': 4.28.2
   chai: 4.3.4
@@ -32,9 +32,9 @@ dependencies:
 
 devDependencies:
   '@types/chai': 4.2.21
-  '@types/mocha': 8.2.3
-  '@types/node': 14.17.6
-  '@types/yargs': 16.0.4
+  '@types/mocha': 9.1.0
+  '@types/node': 16.11.26
+  '@types/yargs': 17.0.9
   '@typescript-eslint/eslint-plugin': 4.28.2_5031fffb45dfb7117e61c1d8ea1ef3ff
   '@typescript-eslint/parser': 4.28.2_eslint@7.30.0+typescript@4.3.5
   chai: 4.3.4
@@ -255,6 +255,7 @@ packages:
   /@commitlint/load/12.1.1:
     resolution: {integrity: sha512-qOQtgNdJRULUQWP9jkpTwhj7aEtnqUtqeUpbQ9rjS+GIUST65HZbteNUX4S0mAEGPWqy2aK5xGd73cUfFSvuuw==}
     engines: {node: '>=v10'}
+    requiresBuild: true
     dependencies:
       '@commitlint/execute-rule': 12.1.1
       '@commitlint/resolve-extends': 12.1.1
@@ -410,7 +411,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.0
       '@types/keyv': 3.1.1
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
       '@types/responselike': 1.0.0
     dev: false
 
@@ -442,30 +443,25 @@ packages:
   /@types/keyv/3.1.1:
     resolution: {integrity: sha512-MPtoySlAZQ37VoLaPcTHCu1RWJ4llDkULYZIzOYxlhxBqYPB0RsRlmMU0R6tahtFe27mIdkHV+551ZWV4PLmVw==}
     dependencies:
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
     dev: false
 
   /@types/minipass/2.2.0:
     resolution: {integrity: sha512-wuzZksN4w4kyfoOv/dlpov4NOunwutLA/q7uc00xU02ZyUY+aoM5PWIXEKBMnm0NHd4a+N71BMjq+x7+2Af1fg==}
     dependencies:
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
     dev: false
 
-  /@types/mocha/8.2.3:
-    resolution: {integrity: sha512-ekGvFhFgrc2zYQoX4JeZPmVzZxw6Dtllga7iGHzfbYIYkAMUx/sAFP2GdFpLff+vdHXu5fl7WX9AT+TtqYcsyw==}
+  /@types/mocha/9.1.0:
+    resolution: {integrity: sha512-QCWHkbMv4Y5U9oW10Uxbr45qMMSzl4OzijsozynUAgx3kEHUdXB00udx2dWDQ7f2TU2a2uuiFaRZjCe3unPpeg==}
     dev: true
 
   /@types/node/10.17.59:
     resolution: {integrity: sha512-7Uc8IRrL8yZz5ti45RaFxpbU8TxlzdC3HvxV+hOWo1EyLsuKv/w7y0n+TwZzwL3vdx3oZ2k3ubxPq131hNtXyg==}
     dev: false
 
-  /@types/node/14.14.41:
-    resolution: {integrity: sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==}
-    dev: false
-
-  /@types/node/14.17.6:
-    resolution: {integrity: sha512-iBxsxU7eswQDGhlr3AiamBxOssaYxbM+NKXVil8jg9yFXvrfEFbDumLD/2dMTB+zYyg7w+Xjt8yuxfdbUHAtcQ==}
-    dev: true
+  /@types/node/16.11.26:
+    resolution: {integrity: sha512-GZ7bu5A6+4DtG7q9GsoHXy3ALcgeIHP4NnL0Vv2wu0uUB/yQex26v0tf6/na1mm0+bS9Uw+0DFex7aaKr2qawQ==}
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -476,7 +472,7 @@ packages:
     resolution: {integrity: sha512-/LO7xRVnL3DxJ1WkPGDQrp4VTV1reX9RkC85mJ+Qzykj2Bdw+mG15aAfDahc76HtknjzE16SX/Yddn6MxVbmGQ==}
     dependencies:
       '@types/caseless': 0.12.2
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
       '@types/tough-cookie': 4.0.0
       form-data: 2.5.1
     dev: false
@@ -484,20 +480,20 @@ packages:
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
     dev: false
 
   /@types/stream-buffers/3.0.3:
     resolution: {integrity: sha512-NeFeX7YfFZDYsCfbuaOmFQ0OjSmHreKBpp7MQ4alWQBHeh2USLsj7qyMyn9t82kjqIX516CR/5SRHnARduRtbQ==}
     dependencies:
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
     dev: false
 
   /@types/tar/4.0.4:
     resolution: {integrity: sha512-0Xv+xcmkTsOZdIF4yCnd7RkOOyfyqPaqJ7RZFKnwdxfDbkN3eAAE9sHl8zJFqBz4VhxolW9EErbjR1oyH7jK2A==}
     dependencies:
       '@types/minipass': 2.2.0
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
     dev: false
 
   /@types/tough-cookie/4.0.0:
@@ -511,15 +507,15 @@ packages:
   /@types/ws/6.0.4:
     resolution: {integrity: sha512-PpPrX7SZW9re6+Ha8ojZG4Se8AZXgf0GK6zmfqEuCsY49LFDNXO3SByp44X3dFEqtB73lkCDAdUazhAjVPiNwg==}
     dependencies:
-      '@types/node': 14.14.41
+      '@types/node': 16.11.26
     dev: false
 
   /@types/yargs-parser/20.2.0:
     resolution: {integrity: sha512-37RSHht+gzzgYeobbG+KWryeAW8J33Nhr69cjTqSYymXVZEN9NbRYWoYlRtDhHKPVT1FyNKwaTPC1NynKZpzRA==}
     dev: true
 
-  /@types/yargs/16.0.4:
-    resolution: {integrity: sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==}
+  /@types/yargs/17.0.9:
+    resolution: {integrity: sha512-Ci8+4/DOtkHRylcisKmVMtmVO5g7weUVCKcsu1sJvF1bn0wExTmbHmhFKj7AnEm0de800iovGhdSKzYnzbaHpg==}
     dependencies:
       '@types/yargs-parser': 20.2.0
     dev: true
@@ -1672,6 +1668,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -3379,6 +3376,7 @@ packages:
 
   /tsconfig-paths/3.9.0:
     resolution: {integrity: sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==}
+    requiresBuild: true
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
