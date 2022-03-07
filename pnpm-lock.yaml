@@ -17,7 +17,7 @@ specifiers:
   husky: 7.0.1
   mocha: 9.0.2
   nyc: 15.1.0
-  prettier: 2.3.2
+  prettier: 2.5.1
   ts-mocha: 8.0.0
   typeorm: ^0.2.32
   typescript: 4.3.5
@@ -42,11 +42,11 @@ devDependencies:
   cz-conventional-changelog: 3.3.0
   eslint: 7.30.0
   eslint-config-prettier: 8.3.0_eslint@7.30.0
-  eslint-plugin-prettier: 3.4.0_0470f3bcd018a045da11d0bbb868d6c6
+  eslint-plugin-prettier: 3.4.0_da7c2d6e208799242984c73559327ba8
   husky: 7.0.1
   mocha: 9.0.2
   nyc: 15.1.0
-  prettier: 2.3.2
+  prettier: 2.5.1
   ts-mocha: 8.0.0_mocha@9.0.2
   typescript: 4.3.5
 
@@ -255,6 +255,7 @@ packages:
   /@commitlint/load/12.1.1:
     resolution: {integrity: sha512-qOQtgNdJRULUQWP9jkpTwhj7aEtnqUtqeUpbQ9rjS+GIUST65HZbteNUX4S0mAEGPWqy2aK5xGd73cUfFSvuuw==}
     engines: {node: '>=v10'}
+    requiresBuild: true
     dependencies:
       '@commitlint/execute-rule': 12.1.1
       '@commitlint/resolve-extends': 12.1.1
@@ -1310,7 +1311,7 @@ packages:
       eslint: 7.30.0
     dev: true
 
-  /eslint-plugin-prettier/3.4.0_0470f3bcd018a045da11d0bbb868d6c6:
+  /eslint-plugin-prettier/3.4.0_da7c2d6e208799242984c73559327ba8:
     resolution: {integrity: sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -1323,7 +1324,7 @@ packages:
     dependencies:
       eslint: 7.30.0
       eslint-config-prettier: 8.3.0_eslint@7.30.0
-      prettier: 2.3.2
+      prettier: 2.5.1
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -1672,6 +1673,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2804,8 +2806,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.3.2:
-    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -3379,6 +3381,7 @@ packages:
 
   /tsconfig-paths/3.9.0:
     resolution: {integrity: sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==}
+    requiresBuild: true
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
